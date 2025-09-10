@@ -1,1 +1,15 @@
 @import 'tailwindcss';
+
+html {
+    @apply bg-white text-gray-900;
+    @apply dark:bg-gray-900 dark:text-gray-100;
+    @apply font-sans;
+    @apply antialiased;
+    @apply min-h-screen;
+    @apply flex flex-col;
+    @apply transition-colors duration-300;
+}
+
+body {
+    @apply flex-grow;
+}
