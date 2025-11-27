@@ -7,6 +7,7 @@ export interface Mod {
     description: string;
     version: string;
     author: string;
+    website: string;
 
     patches: ModEvent[];
     traits: Trait[];

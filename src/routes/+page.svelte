@@ -11,6 +11,7 @@
         version: "1.0.0",
         description: "My awesome mod",
         author: "MyName",
+        website: "https://cotlmodcreator.pebloop.dev/",
         patches: [],
         traits: [],
     });
